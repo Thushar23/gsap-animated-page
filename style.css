@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.img {
+    margin-left: 15%;
+    width: 100px;
+}
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 200px;
+    display: inline-block;
+    transform-style: preserve-3d; 
+    perspective: 1000px;
+}
+.ani {
+    margin-left: 5%; 
+    display: inline-block; 
+    vertical-align: top;
+
+}
+.any {
+    margin-left: 30%; /* Adjust margin as needed */
+    display: inline-block; /* Ensure divs are inline-block to reduce gap */
+    vertical-align: top; /* Aligns elements to the top */
+}
+button{
+    margin-left: 800px;
+    color: #fff;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px 0px;
+}
+button:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
